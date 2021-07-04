@@ -12,7 +12,7 @@ constructor(props) {
 componentDidMount() {
     const temp = this.props.match.url;
    //console.log(temp);
-  axios.delete('https://rc-url-shortner.herokuapp.com'+temp)
+  axios.delete('http://localhost:3001'+temp)
    .then(response => { this.setState({ exercises: response.data }); 
     console.log(this.state.exercises);
    })

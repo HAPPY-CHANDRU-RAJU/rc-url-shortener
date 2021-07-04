@@ -10,7 +10,7 @@ constructor(props) {
 };
     
 componentDidMount() {
-  axios.get('https://rc-url-shortner.herokuapp.com/show')
+  axios.get('http://localhost:3001/show')
    .then(response => { this.setState({ exercises: response.data }); 
     console.log(this.state.exercises);
    })
@@ -23,7 +23,7 @@ componentDidMount() {
   render() {
   const j = Object.values(this.state.exercises);
   var i = 0; 
-  var websiteLink = "https://rc-url-shortner.herokuapp.com/#/";
+  var websiteLink = "http://localhost:3000/#/";
   
     return (
     <div> 

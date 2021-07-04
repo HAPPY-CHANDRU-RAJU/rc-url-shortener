@@ -25,7 +25,7 @@ onSubmit(e) {
     const newUrl = {
         urllink: this.state.urllink
     };   
-    axios.post('https://rc-url-shortner.herokuapp.com/#/insert', newUrl)
+    axios.post('http://localhost:3001/insert', newUrl)
     window.location = '#/add';
 }
 

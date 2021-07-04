@@ -28,7 +28,7 @@ onSubmit(e) {
     
     const temp = this.props.match.url;
     console.log(temp);
-    axios.post('https://rc-url-shortner.herokuapp.com'+temp, newUrl)
+    axios.post('http://localhost:3001'+temp, newUrl)
     .then(() => console.log("success"))
    .catch((error) => {
       console.log(error);
