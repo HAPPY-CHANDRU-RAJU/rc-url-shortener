@@ -24,7 +24,7 @@ const db = require(__dirname +'/models/url.model');
 const uri = process.env.ATLAS_URI;
 
 mongoose.set('useCreateIndex', true);
-mongoose.connect("mongodb+srv://happie2110:mageshram@2110@cluster0.mmn01.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify:true, autoIndex : true});
+mongoose.connect("mongodb+srv://<USER_NAME>:<PASSWORD>@cluster0.mmn01.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify:true, autoIndex : true});
 const connection = mongoose.connection;
 connection.once('open', () => {
   console.log("MongoDB database connection established successfully");
