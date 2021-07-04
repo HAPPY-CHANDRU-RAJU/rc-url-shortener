@@ -1,0 +1,216 @@
+.App{
+    text-align: center;
+}
+.NoMore{
+    font-weight: 600;
+    text-align: center;
+}
+.update-App{
+    margin: 65px 0px;
+    padding: 25px 15px;
+    background-color: #0b1736;
+    text-align: center;
+}
+.colBlack{
+    color: #000000; 
+    display: block;
+    margin: 10px;
+}
+.alert-deleted{    
+    text-align: center;
+    margin: 60px;
+}
+.text-subline{
+    margin: 10px 0px;
+    font-size: small;
+}
+.overflow-fit{
+    overflow-wrap: anywhere;
+}
+.content{
+    padding:  0px 20px;
+  /*  margin: 15px;  */
+}
+.inline-block{
+    display: inline-block;
+}
+.shortlogo-div{
+    float: right;
+    margin-top: 37px;
+    margin-right: 25px;
+}
+.logo-text{
+    font-weight: 600;
+    color: #1b79be;
+}
+.shortlogo{
+    height: 100px;    
+   
+}
+.designed{
+    margin: 0px 17px;;
+}
+.ramaiahlogo {
+    height: 150px;
+}
+.mini-project{
+    font-weight: 600;
+    margin-left: 35px;
+}
+.text-msg{
+    font-size: x-large;
+}
+.Cryicon{
+    height: 150px;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+.loadicon{
+    margin-left: 40%;
+    height: 145px;
+}
+.footer-fix{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.dark{
+    background-color: #0b1736;     
+    padding: 12px;
+}
+.text-center{
+    text-align: center;
+}
+.iconFix{
+    height: 30px;
+}
+.paragraph-fix{
+    overflow-wrap: anywhere;
+}
+.table-field:hover{
+    background-color: #b90628;
+}
+.fix-field{
+    width: 27%;
+    padding: 10px;
+}
+.table-header{
+    background: #0b1736;
+    color: #fff;
+}
+.noFlex{
+    display: block;
+    margin: 25px 0px;
+    padding: 25px;
+}
+.navbar-brand{
+    padding-bottom: 9px;
+}
+.navbar-right{
+    right: 0px;
+    position: absolute;
+}
+
+.App-Field{
+    margin: 30px 0px;
+    padding: 25px 15px;
+    box-shadow: -1px 4px 7px 3px #3b423b8c;
+    background-color: #0b1736; 
+    text-align: center;
+}
+
+.link_field {
+    display: inline-block;
+    width: 60%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: medium;
+    color: rgb(32, 172, 32);
+}
+
+.btn_submit{
+    text-transform: uppercase;
+    margin: 5px 11px 6px 11px;
+    font-weight: 600;
+    height: 40px;
+    width: 12%;
+    border-radius: 15px;
+    font-size: medium;
+}
+
+.logo{
+    color: rgb(32, 172, 32);
+}
+.logo img {
+    height: 35px;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+.App-Field-Bottom{
+  color: #fff;
+  display: block;
+  margin: 10px;
+}
+
+.section-info{
+  padding: 15px;
+}
+
+.section-header{
+  font-weight: 600;    
+  text-align: -webkit-center;
+  font-size: xx-large;
+}
+
+.section-header-subline{
+  text-align: center;
+  font-size: medium;
+}
+
+.section-content{
+  margin: 5px;
+  padding: 10px;
+}
+
+.section-content-header{    
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.section-img{
+  width: 315px;
+}
+
+.section-hr{
+  margin: 65px 0px;
+}
+
+.cover{
+  margin: 25px 0px;
+  padding: 25px;
+  display: flex;
+}
+
+.cover-content{
+  padding: 13% 10px;
+}
+
+.cover-subline{
+  font-size: smaller;
+}
+
+.about-us{
+  padding: 25px;
+}
+
+.footerResponsive1{
+  background-color: #0b1736;
+  color: #fff;
+  height: 50px;
+  padding: 13px
+}
+.update-header{
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    font-weight: 600;
+}
