@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const db = require(__dirname +'/models/url.model');
 
 
-//ATLAS_URI=mongodb+srv://happie2110:mageshram@2110@cluster0.mmn01.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+//ATLAS_URI=mongodb+srv://<USER_NAME>:<PASSWORD>@cluster0.mmn01.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 const uri = process.env.ATLAS_URI;
 
